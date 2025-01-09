@@ -1,11 +1,11 @@
 <div class="container">
 	<div class="row justify-content-center py-3">
 		<div class="col-lg header-title">
-			<h3><i class="fas fa-fw fa-city"></i> Kecamatan</h3>
+			<h3><i class="fas fa-fw fa-city"></i> Desa</h3>
 		</div>
 		<?php if ($dataUser['jabatan'] == 'administrator'): ?>
 			<div class="col-lg header-button">
-				<a href="<?= base_url('kecamatan/addKecamatan'); ?>" class="btn btn-primary"><i class="fas fa-fw fa-plus"></i> Tambah Kecamatan</a>
+				<a href="<?= base_url('kecamatan/addKecamatan'); ?>" class="btn btn-primary"><i class="fas fa-fw fa-plus"></i> Tambah Desa</a>
 			</div>
 		<?php endif ?>
 	</div>
@@ -16,7 +16,7 @@
 					<thead class="thead-dark">
 						<tr>
 							<th class="align-middle">No.</th>
-							<th class="align-middle">Kecamatan</th>
+							<th class="align-middle">Desa</th>
 							<?php if ($dataUser['jabatan'] == 'administrator'): ?>
 								<th class="align-middle">Aksi</th>
 							<?php endif ?>

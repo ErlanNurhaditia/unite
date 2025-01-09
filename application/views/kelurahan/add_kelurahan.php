@@ -17,12 +17,12 @@
 		<div class="col-lg-6 p-3">
 			<div class="card">
 			  <div class="card-header">
-			  	<h3 class="my-auto"><i class="fas fa-fw fa-plus"></i> Tambah Kelurahan</h3>
+			  	<h3 class="my-auto"><i class="fas fa-fw fa-plus"></i> Tambah Rukun Warga</h3>
 			  </div>
 			  <div class="card-body">
 			  	<form action="<?= base_url('kelurahan/addKelurahan'); ?>" method="post">
 					<div class="form-group">
-						<label for="id_kecamatan">Kecamatan</label>
+						<label for="id_kecamatan">Desa</label>
 						<select id="id_kecamatan" class="custom-select <?= (form_error('id_kecamatan')) ? 'is-invalid' : ''; ?>" name="id_kecamatan">
 							<?php foreach ($kecamatan as $dk): ?>
 								<option value="<?= $dk['id_kecamatan']; ?>"><?= ucwords(strtolower($dk['kecamatan'])); ?></option>
@@ -33,7 +33,7 @@
 			            </div>
 					</div>
 					<div class="form-group">
-						<label for="kelurahan">Kelurahan</label>
+						<label for="kelurahan">Rukun Warga</label>
 						<input type="text" id="kelurahan" class="form-control <?= (form_error('kelurahan')) ? 'is-invalid' : ''; ?>" name="kelurahan" required value="<?= set_value('kelurahan'); ?>">
 						<div class="invalid-feedback">
 			              <?= form_error('kelurahan'); ?>

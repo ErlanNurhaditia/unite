@@ -29,9 +29,9 @@
 	            </div>
 						</div>
 						<div class="form-group">
-							<label for="form_kecamatan">Kecamatan</label>
+							<label for="form_kecamatan">Desa</label>
 							<select class="custom-select <?= (form_error('id_kecamatan')) ? 'is-invalid' : ''; ?>" id="form_kecamatan">
-								<option value="0">Pilih Kecamatan</option>
+								<option value="0">Pilih Desa</option>
 								<?php foreach ($kecamatan as $dataKecamatan): ?>
 									<option value="<?= $dataKecamatan['id_kecamatan']; ?>"><?= $dataKecamatan['kecamatan']; ?></option>
 								<?php endforeach ?>
@@ -41,9 +41,9 @@
 	            </div>
 						</div>
 						<div class="form-group">
-							<label for="form_kelurahan">Kelurahan</label>
+							<label for="form_kelurahan">Rukun Warga</label>
 							<select id="form_kelurahan" class="custom-select <?= (form_error('id_kelurahan')) ? 'is-invalid' : ''; ?>" name="id_kelurahan">
-								<option value="0">Pilih Kecamatan</option>
+								<option value="0">Pilih Rukun</option>
 							</select>
 							<div class="invalid-feedback">
 	              <?= form_error('id_kelurahan'); ?>

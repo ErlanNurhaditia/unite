@@ -1,10 +1,25 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
-  <a href="<?= base_url('pelapor'); ?>" class="brand-link">
-    <img src="<?= base_url('assets/img/img_properties/favicon.png'); ?>" alt="AdminLTE Logo" class="img-w-50">
-    <span class="brand-text">Zona Lapor</span>
-  </a>
+  <a class="navbar-brand" href="<?= base_url(); ?>">
+	      <img style="width: 70px; height:auto;" src="<?= base_url('assets/img/img_properties/logo1.png'); ?>" class="d-inline-block align-top img-fluid ">
+        <span 
+    style="
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2rem; 
+        font-weight: 700; 
+        color: #4CAF50; 
+        letter-spacing: 2px; 
+        text-transform: uppercase; 
+        position: relative; 
+        display: inline-block;
+        transition: all 0.3s ease;"
+    onmouseover="this.style.color='#2e7d32'; this.style.textDecoration='underline';"
+    onmouseout="this.style.color='#4CAF50'; this.style.textDecoration='none';">
+    Unité
+</span>
+
+	    </a>
 
   <!-- Sidebar -->
   <div class="sidebar">

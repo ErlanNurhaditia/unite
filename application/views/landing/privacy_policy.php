@@ -2,7 +2,8 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="<?= base_url(); ?>">
-        <img src="<?= base_url('assets/img/img_properties/favicon-text.png'); ?>" class="d-inline-block align-top img-fluid img-w-100">
+      <img style="width: 70px; height:auto;" src="<?= base_url('assets/img/img_properties/logo1.png'); ?>" class="d-inline-block align-top img-fluid ">
+        
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,14 +29,14 @@
       <div class="col-lg">
         <h3>Privacy Policy</h3> 
         
-        <p>Zona Lapor membuat aplikasi Zona Lapor sebagai aplikasi Gratis. LAYANAN ini disediakan oleh Zona Lapor tanpa biaya dan dimaksudkan untuk digunakan apa adanya.</p> 
+        <p>Unité membuat aplikasi Unité sebagai aplikasi Gratis. LAYANAN ini disediakan oleh Unité tanpa biaya dan dimaksudkan untuk digunakan apa adanya.</p> 
 
         <p>Halaman ini digunakan untuk memberi tahu pengunjung mengenai kebijakan kami dengan pengumpulan, penggunaan, dan pengungkapan Informasi Pribadi jika ada yang memutuskan untuk menggunakan Layanan kami.
         </p> 
 
         <p>Jika Anda memilih untuk menggunakan Layanan kami, maka Anda menyetujui pengumpulan dan penggunaan informasi sehubungan dengan kebijakan ini. Informasi Pribadi yang kami kumpulkan digunakan untuk menyediakan dan meningkatkan Layanan. Kami tidak akan menggunakan atau membagikan informasi Anda dengan siapa pun kecuali sebagaimana dijelaskan dalam Kebijakan Privasi ini.</p> 
 
-        <p>Istilah yang digunakan dalam Kebijakan Privasi ini memiliki arti yang sama seperti dalam Syarat dan Ketentuan kami, yang dapat diakses di Zona Lapor kecuali ditentukan lain dalam Kebijakan Privasi ini.</p>
+        <p>Istilah yang digunakan dalam Kebijakan Privasi ini memiliki arti yang sama seperti dalam Syarat dan Ketentuan kami, yang dapat diakses di Unité kecuali ditentukan lain dalam Kebijakan Privasi ini.</p>
 
         <h4>Pengumpulan dan Penggunaan Informasi</h4>
 
